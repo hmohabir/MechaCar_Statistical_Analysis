@@ -28,6 +28,27 @@ If we go a step further and remove the variables that creat less impact (vehicle
 Here, we can see that the r-squared valie drops from 0.7149 to 0.674. This is not enough to make a significant difference in predictability.
 
 
+## Summary Statistics on Suspension Coils
+
+The Suspension Coil dataset provided for the MechaCar contains the result of testing the weight capacities of multiple suspension coils from different lots to determine consistency.
+
+![Total Summary](https://github.com/hmohabir/MechaCar_Statistical_Analysis/blob/main/4%20Total%20Summary.PNG)
+
+Here we can see that suspension coil's continuous variable across all manufacturing lots, with a variance PSI of 62.28, well within the 100 pounds per square inch. Now, we dive a little deeper into the various manufacturing lots:
+
+![Lot Summary](https://github.com/hmohabir/MechaCar_Statistical_Analysis/blob/main/5%20Lot%20summary.PNG)
+
+We see the variance of 0.09 and 7.47 for lots 1 and 2 respectively - well within the design specification. However, lot 3 has a variance of 170.3. This lot is responsible for the higher varience in the whole lot level.
+
+To illistrate the varience a little more, I will use boxplots:
+
+![Lot Summary](https://github.com/hmohabir/MechaCar_Statistical_Analysis/blob/main/6%20All%20lots%20ggplot.PNG)
+
+The variance might not seem to be out of range at all, when taken together. However, when they are separated, the difference is stark with lot 3:
+
+![Individual Lot Summary](https://github.com/hmohabir/MechaCar_Statistical_Analysis/blob/main/7%20Individual%20lots%20ggplot.PNG)
+
+The variance in performance in performance and consistency is much larger in lot 3. It is also beyond the design specification.
 
 
 
