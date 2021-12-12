@@ -40,7 +40,7 @@ Here we can see that suspension coil's continuous variable across all manufactur
 
 We see the variance of 0.09 and 7.47 for lots 1 and 2 respectively - well within the design specification. However, lot 3 has a variance of 170.3. This lot is responsible for the higher varience in the whole lot level.
 
-To illistrate the varience a little more, I will use boxplots:
+To illustrate the varience a little more, I will use boxplots:
 
 ![Lot Summary](https://github.com/hmohabir/MechaCar_Statistical_Analysis/blob/main/6%20All%20lots%20ggplot.PNG)
 
