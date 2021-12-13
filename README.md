@@ -50,5 +50,52 @@ The variance might not seem to be out of range at all, when taken together. Howe
 
 The variance in performance in performance and consistency is much larger in lot 3. It is also beyond the design specification.
 
+## T-Tests on Suspension Coils
+
+![Overall t-test](https://github.com/hmohabir/MechaCar_Statistical_Analysis/blob/main/8%20t-test%201500PSI.PNG)
+
+We can see the mean of sampling the lots together is 1498.8 with a p-value of 0.06, which is higher than the common significance of 0.05. As such, there is not enough evidence to support a rejection of the null hypothesis. Therefore, the mean of the three lots is ststistically similar to the given mean of 1500 PSI.
+
+However, if we are to look at them individually:
+
+![Overall t-test](https://github.com/hmohabir/MechaCar_Statistical_Analysis/blob/main/9%20Individual%20t-test%201500PSI.PNG)
+
+Lot 1 has a true mean of 1500 PSY with a p-value of 1. As such, the null hypothesis can be accepted since there is no statistical difference between the observed mean and the given meam.
+
+Lot 2 is similar to Lot 1 both with regards to the actual mean and its p-value. Hence the null hypothesis can also be accepted.
+
+Lot 3, on the other hand has a mean of 1496.14 and a p-value of 0.04. Since this p-value is lower than the accepted significance of 0.05, the null hypothesis is rejected and the presumed mean is not statistically different.
+
+The above data shows that something is definitely wrong with lot 3 production.
 
 
+## Study Design: MechaCar vs Competition
+
+Such a study would involve collecting data on MechaCar and its competition over a period of about three years.
+
+### Metrics
+Collecting data would involve the following metrics:
+
+*  Safety Feature Rating: **Independent Variable**
+*  Current Price (Selling): **Dependent Variable**
+*  Drive Package : **Independent Variable**
+*  Engine (Electric, Hybrid, Gasoline / Conventional): **Independent Variable**
+*  Resale Value: **Independent Variable**
+*  Average Annual Cost of ownership (Maintenance): **Independent Variable**
+*  MPG (Gasoline Efficiency): **Independent Variable**
+
+#### Null and alternative Hypothesis
+
+When it is determined which factors are key to the MechaCar's classification, the followingcan be furhter investigated:
+
+Null Hypothesis - MechaCar is properly priced by virtue of its performance of the main factors in its clasification.
+Alternative Hypothesis - MechaCar is not properly priced by virtue of its performance of the main factors in its clasification.
+
+### Statistical tests
+
+A multiple linear regression would be used to determine the dependent variavles havinf the highest correlation/predictability with the list selling price. 
+Also, which combination has the greatest impact on price (it may be all of them!)
+
+#### Data of Statistical test
+
+The data would show which factors habe a mean that is closest or actual to MechaCar's mean and their p-value, which will show if the null hypothesis can be accepted or rejected.
