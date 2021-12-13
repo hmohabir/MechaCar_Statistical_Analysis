@@ -84,7 +84,7 @@ Collecting data would involve the following metrics:
 *  Average Annual Cost of ownership (Maintenance): **Independent Variable**
 *  MPG (Gasoline Efficiency): **Independent Variable**
 
-#### Null and alternative Hypothesis
+### Null and Alternative Hypothesis
 
 When it is determined which factors are key to the MechaCar's classification, the followingcan be furhter investigated:
 
@@ -96,6 +96,6 @@ Alternative Hypothesis - MechaCar is not properly priced by virtue of its perfor
 A multiple linear regression would be used to determine the dependent variavles havinf the highest correlation/predictability with the list selling price. 
 Also, which combination has the greatest impact on price (it may be all of them!)
 
-#### Data of Statistical test
+### Data of Statistical test
 
 The data would show which factors habe a mean that is closest or actual to MechaCar's mean and their p-value, which will show if the null hypothesis can be accepted or rejected.
